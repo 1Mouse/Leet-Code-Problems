@@ -9,7 +9,7 @@
  * };
  */
 
-//Easy solution by converting into vectors but it's slow and uses memory
+///Easy solution by converting into vectors but it's slow and uses memory
 class Solution
 {
 public:
