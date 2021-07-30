@@ -15,4 +15,9 @@ public class Solution
 
         return countStonesThatAreJewels;
     }
+
+    /*  using Linq one line solution
+    public int NumJewelsInStones(string jewels, string stones)
+    => (from j in jewels from s in stones where j == s select s).Count();
+    */
 }
