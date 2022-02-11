@@ -15,8 +15,8 @@
             var keys = freq.ToArray();// array of KeyValuePairs
             Array.Sort(keys, (x, y) => {//the thing I want to be first is the first parameter
                 if (x.Value > y.Value)// the condition for it to be first
-                    return -1;  // -1
-                return 1;  // 1
+                    return -1;  // -1 descendingly "make it first"
+                return 1;  // 1 ascendingly "make it second"
             });
 
             var sb = new StringBuilder();
