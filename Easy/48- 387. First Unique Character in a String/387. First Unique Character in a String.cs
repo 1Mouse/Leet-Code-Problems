@@ -1,3 +1,5 @@
+// time: O(n) n=string length
+// space: O(26)~O(1) the alphabet
 public class Solution {
         public int FirstUniqChar(string s)
         {
