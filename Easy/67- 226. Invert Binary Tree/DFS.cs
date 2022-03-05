@@ -13,6 +13,8 @@
  */
 public class Solution
 {
+    //time: O(n) we traverse each node
+    //space: o(log n) = height of a tree o(H) , o(n) worst case if a skew tree
     public TreeNode InvertTree(TreeNode root)
     {
         if (root == null)
