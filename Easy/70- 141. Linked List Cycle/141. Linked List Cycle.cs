@@ -9,7 +9,7 @@
  *     }
  * }
  */
-//  O(N) time, O(1) space ---->> Floyd's Tortoise and Hare algorithm
+//  O(N) time, O(1) space ---->> Floyd's Tortoise and Hare Algorithm
 public class Solution {
     public bool HasCycle(ListNode head) {
         ListNode slow=head;
