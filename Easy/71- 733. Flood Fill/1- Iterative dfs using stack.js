@@ -25,12 +25,12 @@ let dfs = function (
     visited
 ) {
     visited.add([i, j]);
-    let q = [];
-    q.push([i, j]);
+    let stack = [];
+    stack.push([i, j]);
     image[i][j] = newColor;
 
-    while (q.length !== 0) {
-        let current = q.pop();
+    while (stack.length !== 0) {
+        let current = stack.pop();
 
         for (let direction of directions) {
             let r = current[0] + direction[0],
@@ -43,7 +43,7 @@ let dfs = function (
                 image[r][c] === startingColor &&
                 !visited.has([r, c])
             ) {
-                q.push([r, c]);
+                stack.push([r, c]);
                 visited.add([r, c]);
                 image[r][c] = newColor;
             }
