@@ -1,3 +1,5 @@
+// bottom up vs top down
+// https://medium.com/cracking-the-coding-interview-in-ruby-python-and/bottom-up-and-top-down-recursion-explained-with-examples-in-ruby-javascript-and-python-mastering-9fa051ee53ff
 public class Solution
 {
     public int ClimbStairs(int n)
