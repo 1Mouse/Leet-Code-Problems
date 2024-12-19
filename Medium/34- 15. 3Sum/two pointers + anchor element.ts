@@ -27,7 +27,6 @@ function threeSum(nums: number[]): number[][] {
                 l++;
             else
                 r--;
-
         }
 
     }
