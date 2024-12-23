@@ -21,7 +21,6 @@ function hasCycle(head: ListNode | null): boolean {
         if (slow === fast) {
             return true;
         }
-
     }
 
     return false
